@@ -12,7 +12,7 @@ function App() {
     const isAdded = carts.find(item => item.id === name.id)
     let count = name.credit_hour;
     if (isAdded) {
-      alert('already added in the cart')
+      alert('Already added in the cart')
     }
     else {
       carts.forEach(item => {

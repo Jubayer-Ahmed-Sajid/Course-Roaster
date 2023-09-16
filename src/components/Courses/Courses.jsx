@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Course from "./Course/Course";
+import PropTypes from 'prop-types'
 
 
 const Courses = ({handleSelect}) => {
@@ -24,5 +25,8 @@ const Courses = ({handleSelect}) => {
         </div>
     );
 };
+Courses.propTypes = {
+    handleSelect: PropTypes.func.isRequired
+}
 
 export default Courses;

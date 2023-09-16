@@ -1,5 +1,7 @@
 import { FaDollarSign } from 'react-icons/fa';
 import { FaBook } from 'react-icons/fa';
+import PropTypes from 'prop-types'
+
 const Course = ({ course ,handleSelect}) => {
     const {cover,course_name,details,price,credit_hour} = course;
     return (
@@ -22,5 +24,8 @@ const Course = ({ course ,handleSelect}) => {
         </div>
     );
 };
-
+Course.propTypes = {
+    course: PropTypes.object,
+    handleSelect: PropTypes.func
+}
 export default Course;
