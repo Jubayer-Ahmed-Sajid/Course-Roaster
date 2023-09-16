@@ -6,8 +6,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [carts, setCarts] = useState([]);
-  const [remaining, setRemaining] = useState(20);
   const [credit, setCredit] = useState(0);
+  const [remaining, setRemaining] = useState(20);
+ 
 
   const handleSelect = name => {
     const newCarts = [...carts, name]
