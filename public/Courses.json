@@ -65,7 +65,7 @@
     },
     {
       "id": "course009",
-      "cover": "../src/assets/images/Rectangle 3.png",
+      "cover": "https://i.ibb.co/Mn0YTfw/Rectangle-2-2.png",
       "course_name": "Advanced JavaScript Programming",
       "details": "Enhance your JavaScript skills with advanced concepts and techniques.",
       "price": 229.99,

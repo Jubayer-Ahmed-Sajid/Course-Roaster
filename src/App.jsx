@@ -1,6 +1,8 @@
 import { useState } from "react"
 import Courses from "./components/Courses/Courses"
 import Carts from "./components/Carts/Carts";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [carts, setCarts] = useState([]);
@@ -12,13 +14,13 @@ function App() {
     const isAdded = carts.find(item => item.id === name.id)
     let count = name.credit_hour;
     if (isAdded) {
-      alert('Already added in the cart')
+      toast('Already added in the cart')
     }
     else {
       carts.forEach(item => {
         count = count + item.credit_hour
         if (count > 20) {
-          alert('You cannot use more than 20 hours')
+          toast('You cannot use more than 20 hours')
         }
 
       })
@@ -44,6 +46,8 @@ function App() {
         <Carts carts={carts}
           credit={credit}
           remaining={remaining}></Carts>
+          <ToastContainer />
+
 
       </div>
     </div>
