@@ -1,7 +1,7 @@
 [
     {
       "id": "course001",
-      "cover": "../src/assets/images/Rectangle 2-1.png",
+      "cover": "https://i.ibb.co/3zNp5fz/Rectangle-2-1.png",
       "course_name": "Introduction to Computer Programming",
       "details": "Learn the basics of programming languages and problem-solving.",
       "price": 199.99,
@@ -9,7 +9,7 @@
     },
     {
       "id": "course002",
-      "cover": "../src/assets/images/Rectangle 2-2.png",
+      "cover": "https://i.ibb.co/tMCqRNH/Rectangle-2-2.png",
       "course_name": "Web Development Fundamentals",
       "details": "Discover the essentials of web development, HTML, and CSS.",
       "price": 149.99,
@@ -17,7 +17,7 @@
     },
     {
       "id": "course003",
-      "cover": "./../src/assets/images/Rectangle 2-3.png",
+      "cover": "https://i.ibb.co/pJKGtrc/Rectangle-2-3.png",
       "course_name": "Introduction to Data Science Essentials",
       "details": "Explore data analysis, statistics, and data visualization.",
       "price": 249.99,
@@ -25,7 +25,7 @@
     },
     {
       "id": "course004",
-      "cover": "../src/assets/images/Rectangle 2-5.png",
+      "cover": "https://i.ibb.co/ZV6Qszd/Rectangle-2-5.png",
       "course_name": "Digital Marketing Strategies of Modern Time",
       "details": "Learn effective digital marketing techniques and strategies.",
       "price": 179.99,
@@ -33,7 +33,7 @@
     },
     {
       "id": "course005",
-      "cover": "../src/assets/images/Rectangle 2-6.png",
+      "cover": "https://i.ibb.co/m8Nmck0/Rectangle-2-6.png",
       "course_name": "Business Finance Fundamentals",
       "details": "Master the basics of business finance and financial management.",
       "price": 199.99,
@@ -41,7 +41,7 @@
     },
     {
       "id": "course006",
-      "cover": "../src/assets/images/Rectangle 2.png",
+      "cover": "https://i.ibb.co/THZ3vqv/Rectangle-3.png",
       "course_name": "Artificial Intelligence Fundamentals",
       "details": "Dive into the world of AI, machine learning, and neural networks.",
       "price": 299.99,
@@ -49,7 +49,7 @@
     },
     {
       "id": "course007",
-      "cover": "../src/assets/images/Rectangle 3-1.png",
+      "cover": "https://i.ibb.co/mHcBMmv/Rectangle-3-1.png",
       "course_name": "Introduction to Graphic Design Principles",
       "details": "Develop your graphic design skills and creativity.",
       "price": 149.99,
@@ -57,7 +57,7 @@
     },
     {
       "id": "course008",
-      "cover": "../src/assets/images/Rectangle 2.png",
+      "cover": "https://i.ibb.co/XbBZDbs/Rectangle-2.png",
       "course_name": "Project Management Fundamentals",
       "details": "Learn the principles of project planning and execution.",
       "price": 219.99,
