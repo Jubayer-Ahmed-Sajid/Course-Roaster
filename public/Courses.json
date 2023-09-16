@@ -17,7 +17,7 @@
     },
     {
       "id": "course003",
-      "cover": "../src/assets/images/Rectangle 2-3.png",
+      "cover": "./../src/assets/images/Rectangle 2-3.png",
       "course_name": "Introduction to Data Science Essentials",
       "details": "Explore data analysis, statistics, and data visualization.",
       "price": 249.99,
