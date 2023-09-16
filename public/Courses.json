@@ -1,0 +1,74 @@
+[
+    {
+      "id": "course001",
+      "cover": "../src/assets/images/Rectangle 2-1.png",
+      "course_name": "Introduction to Computer Programming",
+      "details": "Learn the basics of programming languages and problem-solving.",
+      "price": 199.99,
+      "credit_hour": 3
+    },
+    {
+      "id": "course002",
+      "cover": "../src/assets/images/Rectangle 2-2.png",
+      "course_name": "Web Development Fundamentals",
+      "details": "Discover the essentials of web development, HTML, and CSS.",
+      "price": 149.99,
+      "credit_hour": 2
+    },
+    {
+      "id": "course003",
+      "cover": "../src/assets/images/Rectangle 2-3.png",
+      "course_name": "Introduction to Data Science Essentials",
+      "details": "Explore data analysis, statistics, and data visualization.",
+      "price": 249.99,
+      "credit_hour": 4
+    },
+    {
+      "id": "course004",
+      "cover": "../src/assets/images/Rectangle 2-5.png",
+      "course_name": "Digital Marketing Strategies of Modern Time",
+      "details": "Learn effective digital marketing techniques and strategies.",
+      "price": 179.99,
+      "credit_hour": 3
+    },
+    {
+      "id": "course005",
+      "cover": "../src/assets/images/Rectangle 2-6.png",
+      "course_name": "Business Finance Fundamentals",
+      "details": "Master the basics of business finance and financial management.",
+      "price": 199.99,
+      "credit_hour": 3
+    },
+    {
+      "id": "course006",
+      "cover": "../src/assets/images/Rectangle 2.png",
+      "course_name": "Artificial Intelligence Fundamentals",
+      "details": "Dive into the world of AI, machine learning, and neural networks.",
+      "price": 299.99,
+      "credit_hour": 4
+    },
+    {
+      "id": "course007",
+      "cover": "../src/assets/images/Rectangle 3-1.png",
+      "course_name": "Introduction to Graphic Design Principles",
+      "details": "Develop your graphic design skills and creativity.",
+      "price": 149.99,
+      "credit_hour": 2
+    },
+    {
+      "id": "course008",
+      "cover": "../src/assets/images/Rectangle 3-1.png",
+      "course_name": "Project Management Fundamentals",
+      "details": "Learn the principles of project planning and execution.",
+      "price": 219.99,
+      "credit_hour": 3
+    },
+    {
+      "id": "course009",
+      "cover": "../src/assets/images/Rectangle 3.png",
+      "course_name": "Advanced JavaScript Programming",
+      "details": "Enhance your JavaScript skills with advanced concepts and techniques.",
+      "price": 229.99,
+      "credit_hour": 3
+    }
+  ]
