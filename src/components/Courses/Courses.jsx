@@ -11,9 +11,9 @@ const Courses = ({handleSelect}) => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div>
-            <h1 className="text-4xl text-center font-bold mt-12 mb-8">Course Registration</h1>
-            <div className="grid grid-cols-3 w-3/4 gap-5">
+        <div className="w-3/4">
+            
+            <div className="grid grid-cols-3  gap-5">
                 {
                     courses.map(course => <Course
                         course={course}

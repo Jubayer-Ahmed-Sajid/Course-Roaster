@@ -4,8 +4,8 @@ import Carts from "./components/Carts/Carts";
 
 function App() {
   const [carts, setCarts] = useState([]);
-  const [remaining, setRemaining]= useState(20);
-  const [credit,setCredit] = useState(0);
+  const [remaining, setRemaining] = useState(20);
+  const [credit, setCredit] = useState(0);
 
   const handleSelect = name => {
     const newCarts = [...carts, name]
@@ -14,34 +14,40 @@ function App() {
     if (isAdded) {
       alert('already added in the cart')
     }
-    else{
+    else {
       carts.forEach(item => {
         count = count + item.credit_hour
-        if(count > 20){
+        if (count > 20) {
           alert('You cannot use more than 20 hours')
         }
-       
+
       })
       let totalRemaining = 20 - count;
-      if(totalRemaining < 0){
-       return 
+      if (totalRemaining < 0) {
+        return
       }
       setCredit(count);
       setCarts(newCarts);
       setRemaining(totalRemaining);
-      console.log(totalRemaining);
+
 
 
     }
   }
 
   return (
-    <div className="flex">
-      <Courses
-        handleSelect={handleSelect}></Courses>
-      <Carts carts={carts}></Carts>
+    <div>
+      <h1 className="text-4xl text-center font-bold mt-12 mb-8">Course Registration</h1>
+      <div className="flex gap-6 max-w-7xl mx-auto">
+        <Courses
+          handleSelect={handleSelect}></Courses>
+        <Carts carts={carts}
+          credit={credit}
+          remaining={remaining}></Carts>
 
+      </div>
     </div>
+
   )
 }
 
